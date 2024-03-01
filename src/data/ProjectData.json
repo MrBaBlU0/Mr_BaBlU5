@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Seraphine",
+    "description": "List of all reinforcement learning agents",
+    "technology": "Python",
+    "visibleProject": "Private",
+    "image": "../projects/seraphine.webp",
+    "link": "#wip"
+  },
+  {
+    "title": "Mary",
+    "description": "environment decision making in autonomous cars",
+    "technology": "Python",
+    "visibleProject": "Private",
+    "image": "../projects/mary.webp",
+    "link": "#wip"
+  },
+  {
+    "title": "Aiden",
+    "description": "Make Simple x86_64 emulator",
+    "technology": "C",
+    "visibleProject": "Private",
+    "image": "../projects/aiden.webp",
+    "link": "#wip"
+  },
+  {
+    "title": "Clara",
+    "description": "Development quantum computing package, currently working on it",
+    "technology": "C",
+    "visibleProject": "public",
+    "image": "../projects/clara.png",
+    "link": "https://github.com/slowy07/clara"
+  }
+]
