@@ -88,46 +88,23 @@ function MyBio({ closeBio }) {
           style={atomOneDark}
           showLineNumbers
         >
-          {`name: str = "arfy slowy"
-hobbies: list = [
-  "Coding",
-  "Dota",
-  "Film",
-]
+import os, sys
 
-# voluenteering
+#--> Clear Terminal
+def clear():
+    if "linux" in sys.platform.lower():os.system('clear')
+    elif "win" in sys.platform.lower():os.system('cls')
 
-def intel(start_year: int, role: str) -> str:
-  return ( 
-    f"Volunteering on {start_year} and working as {role} for data flow facilicator for machine learning, "
-     + "the project focused to generate easy dataset, train and use machine learning models"
-  )
-
-def google_earth_community(start_year: int, role: str) -> str:
-  return ( 
-    f"Volunteering on {start_year} and working as {role} for package for interactive geospaital "
-     + "analysis and visualization with Google Earth Engine"
-
-def microsoft(start_year: int, role: str) -> str:
-  return (
-    f"Volunteering on {start_year} and working as {role} for AI-oriented quantitative investment "
-      + "platform, which aims to realize the potential, empower the research, and create the value "
-      + "of AI technologies in quantitative investment."
-  )
-
-def bellshade(start_year: int, role: str) -> str:
-  return (
-    f"Start from {start_year} and working as {role} for organization about basic,advance and " +
-     + "expert programming course and make some open source library"
-  )
-
-if __name__ == "__main__":
-  print(f"hello my name {name.capitalize()}")
-  print(intel(2021, "software engineer")) # not volunteer anymore
-  print(google_earth_community(2021, "software engineer")) # still maintain
-  print(microsoft(2023, "software engineer")) # not volunteer anymore
-  print(bellshade(2021, "owner")) # still maintain
-  print(f"My Hobby: {', '.join(hobbies)}")
+def hello():
+    myname = ", is Mr,BaBlUi ! "
+    print("I am a 18 year old child, I Love web designing gfx designing")
+    print("graphics designing Python Prigramming. Hacking")
+    print("Greetings everyone!,")
+    print(project)
+    
+if __name__ == '__main__':
+clear();hello()
+    
 
             `}
         </SyntaxHighlighter>
@@ -165,29 +142,23 @@ function Work({ closeWork }) {
           style={atomOneDark}
           showLineNumbers
         >
-          {`# work information
-profession: str = "Software Engineer"
-languages: list = [
-  "Python",
-  "C++",
-  "C",
-  "Assembly",
-  "Rust",
-  "Zig",
-  "Golang"
-]
+import os, sys
 
-# work experience
-def Google(start_year: int, role: str, end_year: int) -> str:
-    return (
-        f"start from {start_year} as {role} on google Brain, specially magenta, Tensorflow. "
-        + f" in {end_year}, i made the difficult decision to leave Google and take a break "
-        + "from the tech industry altogether. while I valued my time at Google and the "
-        + "opportunities it provided, I recognized the importance of maintaining a healthy "
-        + "work-life balance and taking time to recharge"
-    )
+#--> Clear Terminal
+def clear():
+    if "linux" in sys.platform.lower():os.system('clear')
+    elif "win" in sys.platform.lower():os.system('cls')
 
-print(Google(2021, "software engineer", 2023))
+def hello():
+    myname = ", is Mr,BaBlUi ! "
+    print("I am a 18 year old child, I Love web designing gfx designing")
+    print("graphics designing Python Prigramming. Hacking")
+    print("Greetings everyone!,")
+    print(project)
+    
+if __name__ == '__main__':
+clear();hello()
+    
 
 `}
         </SyntaxHighlighter>
